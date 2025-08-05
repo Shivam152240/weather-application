@@ -1,0 +1,17 @@
+.InfoBox{
+    text-align: center;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 4rem;
+     /* border:3px solid rgba(255,255,255, 0.3); */
+     /* box-shadow: seagreen 0px 0px 10px; */
+}
+:root{
+    /* background-color: rgb(103, 163, 220); */
+    background-image: url("image/43289.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
