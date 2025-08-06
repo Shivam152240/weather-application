@@ -20,7 +20,7 @@ export default function InfoBox({info}) {
              <div className='card-container'>
               <Card sx={{ maxWidth: 345, borderRadius: '1.5rem', boxShadow: '10px 10px 20px rgba(3, 1, 1, 0.2)', backgroundColor: 'rgba(255,255,255,0.3)', backdropFilter: 'blur(4px)' }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 100 }}
         image={info.humidity > 80 ? RAIN_URL : info.temp < 15 ? HOT_URL : COLD_URL}
         title="green iguana"
       />
